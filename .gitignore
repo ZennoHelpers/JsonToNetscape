@@ -1,0 +1,10 @@
+# NuGet Packages
+packages/
+*.nupkg
+# NuGet Packages End
+bin
+obj
+*.user
+*.suo
+*.opensdf
+.idea
