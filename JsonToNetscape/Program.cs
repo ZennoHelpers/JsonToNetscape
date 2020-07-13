@@ -8,6 +8,8 @@ namespace JsonToNetscape
 {
     internal static class Program
     {
+        // "Host\tDomainFlag\tPath\tSecureFlag\tExpiry\tName\tValue\tHttpOnlyFlag\tSessionFlag\r\n ..." for Firefox
+        // "Host\tDomainFlag\tPath\tSecureFlag\tExpiry\tName\tValue\tHttpOnlyFlag\tSessionFlag\tSameSite\tPriority\r\n ..." for Chrome.</para>
         private static void Main(string[] args)
         {
             if (args.Length == 0)
